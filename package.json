@@ -1,0 +1,31 @@
+{
+  "name": "command.hook",
+  "version": "0.0.0",
+  "description": "Run scripts after certain git commands are used. Great for compiled source mangeagement between branches and automating magrations",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "node-hooks": "0.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcwhittemore/command.hook"
+  },
+  "keywords": [
+    "git",
+    "hook",
+    "merge",
+    "migration",
+    "version",
+    "control"
+  ],
+  "author": "Matthew Chase Whittemore <mcwhittemore@gmail.com>",
+  "license": "GNU-GPL-2",
+  "bugs": {
+    "url": "https://github.com/mcwhittemore/command.hook/issues"
+  }
+}
