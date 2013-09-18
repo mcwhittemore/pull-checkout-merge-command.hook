@@ -1,1 +1,8 @@
-{}
+{
+	"post-merge":{
+		"pull-checkout-merge-command.hook": "./"
+	},
+	"post-checkout":{
+		"pull-checkout-merge-command.hook": "./"
+	}
+}
